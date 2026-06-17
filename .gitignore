@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/uploads/
+data/outputs/
+data/leads/
+data/test_reference.mp4
