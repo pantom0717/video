@@ -2,6 +2,8 @@ fastapi==0.115.6
 uvicorn[standard]==0.34.0
 python-multipart==0.0.20
 pydantic-settings==2.7.1
-google-genai==0.5.0
+google-genai>=0.8.0
 opencv-python==4.10.0.84
+# 선택: provider=sdk 로 백엔드가 직접 힉스필드 생성할 때만 필요
 higgsfield-client==0.1.0
+# 메일(smtp/resend)·TTS(elevenlabs)는 표준 라이브러리(smtplib/urllib)로 호출 — 추가 패키지 없음
